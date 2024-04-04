@@ -12,7 +12,7 @@ export const posts = [
   {
     id: 2,
     username: "success",
-    fullName: "success Omojola",
+    fullName: "Success Omojola",
     userImg:
       "https://media.istockphoto.com/id/478803372/photo/attractive-young-sports-woman-outdoors.webp?b=1&s=170667a&w=0&k=20&c=fOhgeAXPMaW7P6EvWNCRhbCqTQPdOiO7Bgtz1PpEnV0=",
     postImg:
