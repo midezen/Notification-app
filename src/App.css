@@ -5,8 +5,22 @@ body {
   justify-content: center;
 }
 
+.container {
+  width: 30vw;
+  border-radius: 5px;
+  border: 0.5px solid lightseagreen;
+}
+
 .login {
+  width: 30vw;
   height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +31,7 @@ input {
   width: 50%;
   padding: 10px;
   margin-bottom: 20px;
+  outline: 0;
 }
 
 button {
@@ -27,4 +42,12 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.username {
+  font-weight: bold;
+  color: lightseagreen;
+  position: absolute;
+  right: 20px;
+  top: 15px;
 }
