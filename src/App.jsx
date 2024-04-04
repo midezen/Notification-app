@@ -2,17 +2,19 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./navbar/Navbar";
 import Card from "./card/Card";
+import { posts } from "./dummyData";
 
 function App() {
   const [username, setUsername] = useState("");
   const [user, setUser] = useState("");
-  console.log(user);
   return (
     <div className="container">
       {user ? (
         <>
           <Navbar />
-          <Card />
+          {posts.map((post) => (
+            <Card post={post} key={post.id} />
+          ))}
           <span className="username">{user}</span>
         </>
       ) : (
