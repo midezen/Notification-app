@@ -1,7 +1,7 @@
 export const posts = [
   {
     id: 1,
-    username: "Ayo",
+    username: "ayo",
     fullName: "Ayomide Oluwadiya",
     userImg:
       "https://images.unsplash.com/photo-1563452965085-2e77e5bf2607?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFuZHNvbWUlMjBibGFjayUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D",
